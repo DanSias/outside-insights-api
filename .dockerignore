@@ -1,0 +1,73 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+venv/
+.env
+.env.local
+*.env
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore logs and debug files
+logs/
+*.log
+*.out
+*.err
+nohup.out
+debug.log
+
+# Ignore local database files
+*.db
+*.sqlite3
+instance/
+migrations/
+
+# Ignore test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore build and distribution directories
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+site-packages/
+
+# Ignore Docker build cache
+.dockerignore
+Dockerfile~
+docker-compose.override.yml
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore Alembic migration cache
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Ignore unnecessary media/static files
+static/
+media/
+
+# Ignore temporary files and swap files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore git files
+.git/
+.gitignore
