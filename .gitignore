@@ -1,2 +1,95 @@
-# Ignore Python virtual environments
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 venv/
+.env
+.env.local
+.env.production
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+nohup.out
+debug.log
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dependencies
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+site-packages/
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+docker-compose.override.yml
+
+# Editor swap and backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.lcov
+
+# MyPy
+.mypy_cache/
+
+# Pyright
+.pyright/
+
+# FastAPI generated static files (if applicable)
+static/
+media/
+
+# Local database files
+instance/
+app.db
+db.sqlite3
+
+# Test-related
+.tox/
+.nox/
