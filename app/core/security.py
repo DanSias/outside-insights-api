@@ -5,11 +5,11 @@ from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
-
 from app.db.session import get_db
 from app.models.user import User
 from app.db.crud.user import get_user_by_email
 from app.config import settings
+
 
 # Setup password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
